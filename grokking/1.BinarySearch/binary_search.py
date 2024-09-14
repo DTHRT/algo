@@ -1,3 +1,6 @@
+# O(log n) time
+# Requires: sorted array
+
 def main(list, target):
     low = list[0]
     high = len(list) - 1
